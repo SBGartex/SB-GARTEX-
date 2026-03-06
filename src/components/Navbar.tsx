@@ -41,8 +41,12 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 bg-turquoise-500 rounded-lg flex items-center justify-center text-navy-900">
-              <ShoppingBag size={24} strokeWidth={2.5} />
+            <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center overflow-hidden">
+              <img 
+                src="https://blogpfthumb-phinf.pstatic.net/MjAyNjAzMDVfMTMg/MDAxNzcyNjkzMjU3Mzk2.eYiWtmrb7k9MWnFU2cJVlR2ShoP3f0hbAcf-mTzBV08g.A8H7puUFY0dtZMXSUXzV38RoVASMWnylQTRD_bMLFpkg.PNG/sb_gartex_symbol.png/sb%2Bgartex%2Bsymbol.png?type=w161" 
+                alt="SB Gartex Logo" 
+                className="w-full h-full object-contain p-1"
+              />
             </div>
             <div className="flex flex-col">
               <span className="text-xl font-bold tracking-wider text-white group-hover:text-turquoise-400 transition-colors">

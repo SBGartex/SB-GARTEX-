@@ -13,8 +13,12 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-6">
-              <div className="w-8 h-8 bg-turquoise-500 rounded-md flex items-center justify-center text-navy-900">
-                <ShoppingBag size={20} strokeWidth={2.5} />
+              <div className="w-8 h-8 bg-white rounded-md flex items-center justify-center overflow-hidden">
+                <img 
+                  src="https://blogpfthumb-phinf.pstatic.net/MjAyNjAzMDVfMTMg/MDAxNzcyNjkzMjU3Mzk2.eYiWtmrb7k9MWnFU2cJVlR2ShoP3f0hbAcf-mTzBV08g.A8H7puUFY0dtZMXSUXzV38RoVASMWnylQTRD_bMLFpkg.PNG/sb_gartex_symbol.png/sb%2Bgartex%2Bsymbol.png?type=w161" 
+                  alt="SB Gartex Logo" 
+                  className="w-full h-full object-contain p-1"
+                />
               </div>
               <span className="text-lg font-bold tracking-wider text-white">
                 {settings.companyName.toUpperCase()}

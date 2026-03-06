@@ -16,7 +16,8 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <img 
             src={settings.heroImage} 
-            alt="Textile Factory" 
+            alt="" 
+            referrerPolicy="no-referrer"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-navy-900/80 mix-blend-multiply" />

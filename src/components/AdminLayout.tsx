@@ -17,8 +17,12 @@ export default function AdminLayout() {
       <aside className="w-64 bg-navy-900 text-white flex flex-col fixed h-full">
         <div className="p-6 border-b border-white/10">
           <Link to="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-turquoise-500 rounded-md flex items-center justify-center text-navy-900">
-              <ShoppingBag size={20} strokeWidth={2.5} />
+            <div className="w-8 h-8 bg-white rounded-md flex items-center justify-center overflow-hidden">
+              <img 
+                src="https://blogpfthumb-phinf.pstatic.net/MjAyNjAzMDVfMTMg/MDAxNzcyNjkzMjU3Mzk2.eYiWtmrb7k9MWnFU2cJVlR2ShoP3f0hbAcf-mTzBV08g.A8H7puUFY0dtZMXSUXzV38RoVASMWnylQTRD_bMLFpkg.PNG/sb_gartex_symbol.png/sb%2Bgartex%2Bsymbol.png?type=w161" 
+                alt="SB Gartex Logo" 
+                className="w-full h-full object-contain p-1"
+              />
             </div>
             <span className="font-bold tracking-wider">SB ADMIN</span>
           </Link>

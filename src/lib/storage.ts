@@ -39,7 +39,7 @@ const DEFAULT_SETTINGS: SiteSettings = {
   address: "3F #A31, The Sun Me Tri-Office, Lô đất HH1, Khu đô thị Mễ Trì Hạ, Nam Từ Liêm, Hà Nội 100000",
   instagram: "https://instagram.com/SB_GARTEX",
   linkedin: "https://www.linkedin.com/in/andy-sung-1a3a2b388",
-  heroImage: "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80&w=2574&auto=format&fit=crop",
+  heroImage: "https://postfiles.pstatic.net/MjAyNjAzMDVfMjYg/MDAxNzcyNjkyNzM0ODc1.nnNNeXi0RRMF1D5wc0vqbiRPKsGeaw7G0Fs9p7OcmGMg.6li-mFjT3Yh5aaGTSns-WsvWaX5AvomNxTQyfrhWo58g.JPEG/black-white-vintage-portrait-man-doing-housework-household-chores.jpg?type=w773",
   aboutImage: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=2670&auto=format&fit=crop"
 };
 
